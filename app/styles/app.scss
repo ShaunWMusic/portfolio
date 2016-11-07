@@ -11,8 +11,21 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   overflow: hidden;
 }
 
+.portfolio {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem black solid;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
 .image {
   height: 93vh;
+  width: 100%;
   object-fit: cover;
 
   &-mobile {
@@ -24,8 +37,27 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
   &-tablet {
     display: none;
-  @media(min-width: 730px) and (max-width: 1080px) {
+  @media(min-width: 730px) {
     display: block;
   }
 }
+}
+
+.gif {
+  border-radius: 3rem;
+  margin: 0 auto;
+
+  &-mobile {
+    display: block;
+    @media(min-width: 730px) {
+      display: none;
+    }
+  }
+
+  &-desktop {
+    display: none;
+    @media(min-width: 730px) {
+      display: block;
+    }
+  }
 }
