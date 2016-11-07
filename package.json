@@ -15,8 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bulma": "^0.2.3",
     "font-awesome": "^4.6.3",
     "normalize-css": "^2.3.1",
+    "vue": "^2.0.5",
+    "vue-router": "^2.0.1",
     "whatwg-fetch": "^1.0.0",
     "yoga-sass": "^1.0.1"
   },
@@ -40,9 +43,11 @@
     "envify": "^3.4.1",
     "eslint": "^2.4.0",
     "eslint-config-rtablada": "^3.1.0",
+    "eslint-plugin-html": "^1.6.0",
     "loader.js": "^4.0.11",
     "sass-lint": "^1.9.1",
     "testem": "^1.11.0",
+    "vueify": "^9.2.4",
     "yarn": "^0.16.1"
   }
 }
