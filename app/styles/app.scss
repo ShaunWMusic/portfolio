@@ -55,6 +55,11 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   border-radius: 3rem;
   margin: 0 auto;
 
+  &-boo {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
   &-mobile {
     display: block;
     @media(min-width: 730px) {

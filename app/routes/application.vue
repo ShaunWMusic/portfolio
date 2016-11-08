@@ -9,8 +9,14 @@
     </nav>
       <div class="section">
         <h2 class="title has-text-centered portfolio">Portfolio</h2>
-        <a href=""><img class="gif gif-mobile" src="/img/puppies.gif" alt=""></a>
-        <a href=""><img class="gif gif-desktop" src="/img/dpuppies.gif" alt=""></a>
+      <div class="control">
+          <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-mobile" src="/img/puppies.gif" alt=""></a>
+        <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-desktop" src="/img/dpuppies.gif" alt=""></a>
+      </div>
+      <div class="control">
+          <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-mobile gif-boo" src="/img/boo.gif" alt=""></a>
+        <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-desktop gif-boo" src="/img/dboo.gif" alt=""></a>
+      </div>
       </div>
     </div>
   </div>
