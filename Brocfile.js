@@ -42,6 +42,7 @@ const appScript = browserify(babelScript, {
     entries: ['./index'],
     debug: true,
   },
+  cache: false,
   outputFile: 'app.js',
 
   init: browserifyInit,

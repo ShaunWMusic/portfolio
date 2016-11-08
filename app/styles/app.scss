@@ -21,6 +21,14 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   position: fixed;
   width: 100%;
   padding-bottom: 1rem;
+  transition: color 500ms, background 500ms;
+
+  &--dark {
+    background: rgba(16, 17, 18, 1.0);
+    h1 {
+      color: rgba(255, 255, 255, 1.0);
+    }
+  }
 }
 
 .image {
