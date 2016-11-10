@@ -6,10 +6,14 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'bulma/bulma';
 
+
+
 .section {
   margin: auto;
   overflow: hidden;
+
 }
+
 
 .portfolio {
   margin: 1rem;
@@ -25,16 +29,20 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
   &--dark {
     background: rgba(16, 17, 18, 1.0);
+
     h1 {
       color: rgba(255, 255, 255, 1.0);
     }
   }
 }
 
+
 .image {
   height: 93vh;
   width: 100%;
   object-fit: cover;
+
+
 
   &-mobile {
     display: block;
@@ -52,25 +60,30 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 }
 
 .gif {
+  height: 53rem;
+  width: 88%;
+  object-fit: cover;
+  border: 0.1rem solid black;
   border-radius: 3rem;
   margin: 0 auto;
+  margin-bottom: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 
   &-boo {
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
+    // padding-bottom: 1rem;
   }
 
   &-mobile {
     display: block;
-    @media(min-width: 730px) {
-      display: none;
-    }
+    // @media(min-width: 730px) {
+    //   display: none;
+    // }
   }
 
   &-desktop {
     display: none;
-    @media(min-width: 730px) {
-      display: block;
-    }
+    // @media(min-width: 730px) {
+    //   display: block;
+    // }
   }
 }
