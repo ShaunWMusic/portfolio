@@ -6,11 +6,15 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'bulma/bulma';
 
-
+.app {
+  height: 100vh;
+  overflow: scroll;
+}
 
 .section {
   margin: auto;
   overflow: hidden;
+  position: relative;
 
 }
 
@@ -22,20 +26,34 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 }
 
 .nav {
-  position: fixed;
   width: 100%;
   padding-bottom: 1rem;
   transition: color 500ms, background 500ms;
 
   &--dark {
+    position: fixed;
+    top: 0;
     background: rgba(16, 17, 18, 1.0);
 
-    h1 {
-      color: rgba(255, 255, 255, 1.0);
+  ul li {
+    color: rgba(255, 255, 255, 1.0);
+
     }
   }
 }
 
+.columns {
+  justify-content: center;
+}
+
+.column {
+filter: grayscale(100%);
+
+  &:hover {
+    filter: grayscale(0);
+  }
+
+}
 
 .image {
   height: 93vh;
@@ -60,30 +78,30 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 }
 
 .gif {
-  height: 53rem;
+  height: 42rem;
   width: 88%;
-  object-fit: cover;
+  object-fit: contain;
   border: 0.1rem solid black;
   border-radius: 3rem;
   margin: 0 auto;
   margin-bottom: 1rem;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 
-  &-boo {
-    // padding-bottom: 1rem;
-  }
+
 
   &-mobile {
     display: block;
-    // @media(min-width: 730px) {
-    //   display: none;
-    // }
   }
 
   &-desktop {
     display: none;
-    // @media(min-width: 730px) {
-    //   display: block;
-    // }
   }
+}
+
+.name-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, 100%);
+  font-size: 1.7rem;
 }

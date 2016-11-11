@@ -2786,7 +2786,7 @@ entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-envify@^3.4.1:
+envify@^3.4.0, envify@^3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/envify/-/envify-3.4.1.tgz#d7122329e8df1688ba771b12501917c9ce5cbce8"
   dependencies:
@@ -7401,12 +7401,24 @@ vue-router:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-2.0.1.tgz#88b83cdc9497bad5b20b579e847a7e7240e221dd"
 
+vue-scroll:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vue-scroll/-/vue-scroll-1.0.4.tgz#daa6715cf2e233bee885120bd7dd55eedab9ebff"
+  dependencies:
+    vue "^1.0.24"
+
 vue-template-compiler@^2.0.0-alpha.8:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.0.5.tgz#6a8c454e7d4ed03cc295ae9733a432e31df25ea3"
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
+
+vue@^1.0.24:
+  version "1.0.28"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-1.0.28.tgz#ed2ff07b200bde15c87a90ef8727ceea7d38567d"
+  dependencies:
+    envify "^3.4.0"
 
 vueify:
   version "9.2.4"
