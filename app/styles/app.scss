@@ -12,12 +12,20 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 }
 
 .section {
-  margin: auto;
+  padding: 1rem;
   overflow: hidden;
   position: relative;
 
 }
 
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.skills-content {
+  padding: 1rem;
+}
 
 .portfolio {
   margin: 1rem;

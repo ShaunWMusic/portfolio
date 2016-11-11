@@ -31,13 +31,28 @@
       </div>
     </div>
       <div class="section">
-          <h2 class="title has-text-centered portfolio" id="skills">Skills</h2>
+        <div class="container">
+            <h2 class="title has-text-centered" id="skills">Skills</h2>
+          <div class="skills-content">
+            <h4 class="title">Web Development</h4>
+            <p>Html,CSS,Vanilla JavaScript,Vue.js,Github,Git,NPM,Yarn,Adonis.js,Node.js,
+            Heroku,Bulma,Flexbox(CSS),Float(CSS)</p>
+          </div>
+          <div class="skills-content">
+            <h4 class="title">Dabble</h4>
+            <p>Sketch,Adobe Photoshop,</p>
+          </div>
+        </div>
       </div>
       <div class="section">
-          <h2 class="title has-text-centered portfolio" id="about">About</h2>
+        <div class="container">
+            <h2 class="title has-text-centered" id="about">About</h2>
+        </div>
       </div>
       <div class="section">
-          <h2 class="title has-text-centered portfolio" id="contact">Contact</h2>
+          <div class="container">
+            <h2 class="title has-text-centered" id="contact">Contact</h2>
+          </div>
       </div>
     </div>
   </div>
