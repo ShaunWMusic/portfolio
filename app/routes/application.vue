@@ -74,12 +74,23 @@
               </div>
               <div class="about-content">
                 <h2 class="title">Contact Details</h2>
-              <p><span class="fa fa-phone"></span><a href="tel:615-556-3930">615-556-3930</a></p>
-              <p><span class="fa fa-envelope"></span><a href="mailto:shaunwmusic@gmail.com">shaunwmusic@gmail.com</a></p>
-              <p><span class="fa fa-twitter"></span><a href="https://www.twitter.com/intent/tweet?screen_name=shaunwmusic">@shaunwmusic</a></p>
+              <p><span class="fa fa-1x fa-phone"></span><a href="tel:615-556-3930">615-556-3930</a></p>
+              <p><span class="fa fa-1x fa-envelope"></span><a href="mailto:shaunwmusic@gmail.com">shaunwmusic@gmail.com</a></p>
+              <p><span class="fa fa-1x fa-twitter"></span><a href="https://www.twitter.com/intent/tweet?screen_name=shaunwmusic">@shaunwmusic</a></p>
               </div>
             </div>
           </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="footer is-primary has-text-centered">
+            <span class="fa fa-twitter"><a href="http://twitter.com/shaunwmusic"></a></span>
+            <span class="fa fa-facebook"><a href="http://facebook.com/shaunwmusic"></a></span>
+            <span class="fa fa-linkedin"><a href="https://www.linkedin.com/in/shaunwillis"></a></span>
+            <span class="fa fa-github"><a href="https://www.github.com/shaunwmusic"></a></span>
+              <p>© Shaun Willis.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

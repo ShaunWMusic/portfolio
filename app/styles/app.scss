@@ -49,6 +49,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 }
 
 .fa {
+  font-size: 1.5rem;
   color: rgba(167, 165, 166, 1.0);
 
   &-envelope {
@@ -56,6 +57,18 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   }
 
   &-twitter {
+    margin-right: 1rem;
+  }
+
+  &-linkedin {
+    margin-right: 1rem;
+  }
+
+  &-github {
+    margin-right: 1rem;
+  }
+
+  &-facebook {
     margin-right: 1rem;
   }
 
@@ -158,4 +171,16 @@ filter: grayscale(100%);
   left: 0;
   transform: translate(0, 100%);
   font-size: 1.7rem;
+}
+
+
+.footer {
+  font-size: 1.5rem;
+
+  span {
+    font-size: 1.5rem;
+  }
+  p {
+    margin-top: 1rem;
+  }
 }
