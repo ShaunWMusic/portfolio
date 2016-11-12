@@ -18,6 +18,52 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 }
 
+.section-skills {
+  background: rgba(142, 143, 148, 1.0);
+}
+
+.section-about {
+  background: rgba(247, 247, 247, 1.0);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.about-img {
+  height: 20rem;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 12rem;
+  padding: 1rem;
+}
+
+.general-information {
+  flex-basis: calc(50%);
+}
+
+.about-content {
+  padding: 1rem;
+}
+
+.fa {
+  color: rgba(167, 165, 166, 1.0);
+
+  &-envelope {
+    margin-right: 1rem;
+  }
+
+  &-twitter {
+    margin-right: 1rem;
+  }
+
+  &-phone {
+  margin-right: 1rem;
+}
+}
+
 .container {
   max-width: 60rem;
   margin: 0 auto;

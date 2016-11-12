@@ -30,7 +30,7 @@
     </div>
       </div>
     </div>
-      <div class="section">
+      <div class="section section-skills">
         <div class="container">
             <h2 class="title has-text-centered" id="skills">Skills</h2>
           <div class="skills-content">
@@ -39,19 +39,46 @@
             Heroku,Bulma,Flexbox(CSS),Float(CSS)</p>
           </div>
           <div class="skills-content">
-            <h4 class="title">Dabble</h4>
+            <h4 class="title">Dabble In</h4>
             <p>Sketch,Adobe Photoshop,</p>
           </div>
         </div>
       </div>
-      <div class="section">
+      <div class="section section-about">
         <div class="container">
-            <h2 class="title has-text-centered" id="about">About</h2>
+          <h2 class="title has-text-centered" id="about">About</h2>
+            <div class="about">
+              <img class="about-img"src="./img/image-6.jpg" alt="">
+              <div class="about-content">
+                <p>Hi, I'm Shaun Willis. This is my design portfolio where I share
+                     all of my favorite work. When I'm not developing, I enjoy spending
+                     time with my family, leading worship at my church, drinking great
+                      coffee with my wife, eating peanut butter sandwiches with my son
+                      and more!
+                      If you would like to follow me on Twitter. My username is <a href="/http://twitter.com/shaunwmusic">@Shaunwmusic</a>.</p>
+              </div>
+            </div>
         </div>
       </div>
       <div class="section">
           <div class="container">
             <h2 class="title has-text-centered" id="contact">Contact</h2>
+            <div class="about">
+              <div class="general-information">
+                <h2 class="title">General Information</h2>
+                <p>I am currently enrolled at Iron Yard in Nashville, and I will
+                  be attending their Front-End Developers' Course in September.</p>
+                <p>I will be pursuing design work after December 16th, 2016.</p>
+                <p>Please only use phone contact for urgent inquiries. Otherwise, Twitter and email
+                  are the best way to reach me.</p>
+              </div>
+              <div class="about-content">
+                <h2 class="title">Contact Details</h2>
+              <p><span class="fa fa-phone"></span><a href="tel:615-556-3930">615-556-3930</a></p>
+              <p><span class="fa fa-envelope"></span><a href="mailto:shaunwmusic@gmail.com">shaunwmusic@gmail.com</a></p>
+              <p><span class="fa fa-twitter"></span><a href="https://www.twitter.com/intent/tweet?screen_name=shaunwmusic">@shaunwmusic</a></p>
+              </div>
+            </div>
           </div>
       </div>
     </div>
