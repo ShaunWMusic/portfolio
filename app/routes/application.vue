@@ -1,8 +1,8 @@
 <template lang="html">
   <div class="app" @scroll="onScroll">
     <div class="section is-paddingless">
-      <img class="image image-mobile" src="../img/image.jpg" alt="">
-      <img class="image image-tablet" src="../img/image-1.jpg" alt="">
+      <img class="image image-mobile" src="../img/image-7.jpg" alt="">
+      <img class="image image-tablet" src="../img/image-7.jpg" alt="">
       <h1 class="nav-item title name-title"><a href="/">Shaun Willis | Web Developer</a></h1>
 
       <nav class="nav" :class="navOffset < scrollPosition ? 'nav--dark': null">
@@ -19,7 +19,7 @@
         <div class="container">
           <h2 class="title has-text-centered" id="about"></h2>
             <div class="about">
-              <img class="about-img"src="./img/image-6.jpg" alt="">
+              <img class="about-img"src="./img/image-1.jpg" alt="">
               <div class="about-content">
               <h4 class="title">HELLO,</h4>
                 <p>I'm Shaun Willis. This is my design portfolio where I share
