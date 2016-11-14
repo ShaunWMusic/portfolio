@@ -36,16 +36,26 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   height: 20rem;
   width: 50%;
   object-fit: cover;
-  border-radius: 12rem;
-  padding: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(#000, 0.4);
+  margin: 1rem;
 }
 
 .general-information {
   flex-basis: calc(50%);
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(#000, 0.4);
+  padding: 0 1rem 1rem 0;
 }
 
 .about-content {
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(#000, 0.4);
   padding: 1rem;
+  margin: 1rem;
+}
+
+.contact-details {
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(#000, 0.4);
+  padding: 0 2rem;
+  margin: 0 1rem;
 }
 
 .fa {
@@ -89,7 +99,6 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 .portfolio {
   margin: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 0.1rem black solid;
 }
 
 .nav {
@@ -101,11 +110,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     position: fixed;
     top: 0;
     background: rgba(16, 17, 18, 1.0);
-
-  ul li {
     color: rgba(255, 255, 255, 1.0);
 
     }
+
+  &-item {
+    color: white;
   }
 }
 
@@ -115,6 +125,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .column {
 filter: grayscale(100%);
+
 
   &:hover {
     filter: grayscale(0);
@@ -149,7 +160,6 @@ filter: grayscale(100%);
   width: 88%;
   object-fit: contain;
   border: 0.1rem solid black;
-  border-radius: 3rem;
   margin: 0 auto;
   margin-bottom: 1rem;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
