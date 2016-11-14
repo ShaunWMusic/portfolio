@@ -25,8 +25,7 @@
                 <p>I'm Shaun Willis. This is my design portfolio where I share
                      all of my favorite work. When I'm not developing, I enjoy spending
                      time with my family, leading worship at my church, drinking
-                      coffee with my wife, eating pb sandwiches with my son
-                      and more!
+                      coffee with my wife, eating pb sandwiches with my son.
                       If you would like to follow me on Twitter. My username is <a href="/http://twitter.com/shaunwmusic">@Shaunwmusic</a>.</p>
               </div>
             </div>
@@ -55,12 +54,12 @@
             <div class="about">
               <div class="contact-details has-text-centered">
 
-              <span class="fa fa-phone"></span><a href="tel:615-556-3930"></a>
-              <span class="fa fa-envelope"></span><a href="mailto:shaunwmusic@gmail.com"></a>
-              <span class="fa fa-twitter"></span><a href="https://www.twitter.com/intent/tweet?screen_name=shaunwmusic"></a>
-              <span class="fa fa-facebook"><a href="http://facebook.com/shaunwmusic"></a></span>
-              <span class="fa fa-linkedin"><a href="https://www.linkedin.com/in/shaunwillis"></a></span>
-              <span class="fa fa-github"><a href="https://www.github.com/shaunwmusic"></a></span>
+              <a href="tel:615-556-3930"><span class="fa fa-phone"></span></a>
+              <a href="mailto:shaunwmusic@gmail.com"><span class="fa fa-envelope"></span></a>
+              <a href="https://www.twitter.com/intent/tweet?screen_name=shaunwmusic"><span class="fa fa-twitter"></span></a>
+              <a href="http://facebook.com/shaunwmusic"><span class="fa fa-facebook"></span></a>
+              <a href="https://www.linkedin.com/in/shaunwillis"><span class="fa fa-linkedin"></span></a>
+              <a href="https://www.github.com/shaunwmusic"><span class="fa fa-github"></span></a>
               <p>© Shaun Willis.</p>
               </div>
             </div>
