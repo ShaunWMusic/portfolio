@@ -143,6 +143,10 @@ filter: grayscale(100%);
     filter: grayscale(0);
   }
 
+  &-portfolio {
+    height: 100vh;
+  }
+
 }
 
 .image {
@@ -170,11 +174,11 @@ filter: grayscale(100%);
 
 .gif {
   overflow: auto;
-  height: 29rem;
-  /* width: 100%; */
-  /* border: 1px solid #000; */
+  height: 52rem;
+  width: 88%;
   margin: 0 auto;
-  object-fit: cover;
+  object-fit: contain;
+  padding-left: 1rem;
 
 
   &-mobile {
@@ -219,4 +223,5 @@ filter: grayscale(100%);
   left: 1rem;
   transform: translate(0,0);
   z-index: -1;
+  height: 85vh;
 }
