@@ -7,9 +7,11 @@
 
       <nav class="nav" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
+          <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
+                <a href="/" class="subtitle">Shaun Willis | Web Developer</a></li>
           <li class="link nav-item"><a href="#portfolio">Portfolio</a></li>
-          <li class="link nav-item"><a href="#skills">Skills</li>
           <li class="link nav-item"><a href="#about">About</li>
+            <li class="link nav-item"><a href="#skills">Skills</li>
           <li class="link nav-item"><a href="#contact">Contact</li>
         </ul>
       </nav>
@@ -38,6 +40,7 @@
           <div class="control">
           <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-mobile" src="/img/puppies.gif" alt=""></a>
         <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-desktop" src="/img/dpuppies.gif" alt=""></a>
+        <img class="iphone" src="./img/iphonepic.png" alt="" />
         </div>
       </div>
     <div class="column">
@@ -76,7 +79,7 @@ export default {
   data() {
     return {
       scrollPosition: 0,
-      navOffset: 1,
+      navOffset: 0,
     };
   },
 

@@ -113,9 +113,18 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   &--dark {
     position: fixed;
     top: 0;
-    background: rgba(16, 17, 18, 1.0);
+    background: rgba(247, 247, 247, 1.0);
     color: rgba(255, 255, 255, 1.0);
 
+    }
+
+    &--hidden {
+      visibility: hidden;
+    }
+
+    &--title {
+      visibility: visible;
+      transition: visibility 500ms;
     }
 
   &-item {
@@ -129,7 +138,6 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .column {
 filter: grayscale(100%);
-
 
   &:hover {
     filter: grayscale(0);
@@ -161,13 +169,12 @@ filter: grayscale(100%);
 }
 
 .gif {
-  height: 42rem;
-  width: 88%;
-  object-fit: contain;
-  border: 0.1rem solid black;
+  overflow: auto;
+  height: 29rem;
+  /* width: 100%; */
+  /* border: 1px solid #000; */
   margin: 0 auto;
-  margin-bottom: 1rem;
-
+  object-fit: cover;
 
 
   &-mobile {
@@ -204,4 +211,12 @@ filter: grayscale(100%);
   p {
     margin-top: 1rem;
   }
+}
+
+.iphone {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  transform: translate(0,0);
+  z-index: -1;
 }
