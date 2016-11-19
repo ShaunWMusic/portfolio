@@ -225,3 +225,10 @@ filter: grayscale(100%);
   z-index: -1;
   height: 85vh;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 30%;
+}

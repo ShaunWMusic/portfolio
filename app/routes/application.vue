@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="section">
-        <h2 class="title has-text-centered portfolio" id="portfolio">Portfolio</h2>
+        <a class="button is-large center" id="portfolio">View Resumé</a>
     <div class="columns columns-portfolio is-desktop is-mobile">
       <div class="column">
           <div class="control">
