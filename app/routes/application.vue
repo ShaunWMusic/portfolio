@@ -34,7 +34,10 @@
         </div>
       </div>
       <div class="section">
-        <a class="button is-large center" id="portfolio">View Resumé</a>
+        <a class="button is-large center" id="portfolio" @click="displayResume">View Resumé</a>
+          <div class="resume">
+
+          </div>
     <div class="columns columns-portfolio is-desktop is-mobile">
       <div class="column">
           <div class="control">
@@ -92,6 +95,10 @@ export default {
   methods: {
     onScroll(e, position) {
       this.scrollPosition = e.target.scrollTop;
+    },
+
+    displayResume() {
+      this.show()
     }
   },
 };
