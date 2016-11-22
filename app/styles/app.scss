@@ -109,11 +109,14 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   width: 100%;
   padding-bottom: 1rem;
   transition: color 500ms, background 500ms;
+  z-index: 1;
+  right: 6rem;
 
 
   &--dark {
     position: fixed;
     top: 0;
+    right: 0;
     background: rgba(247, 247, 247, 1.0);
     color: rgba(255, 255, 255, 1.0);
     }
