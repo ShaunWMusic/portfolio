@@ -254,8 +254,21 @@ filter: grayscale(100%);
 }
 
 .pdf {
-  // display: none;
-  z-index: 4;
+  height: 80vh;
   width: 0;
-  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 4rem;
+  left: 9rem;
+  background-color: black;
+}
+
+.close-resume {
+  visibility: hidden;
+  position: fixed;
+  top: 5rem;
+  left: 10.5rem;
+  color: black;
+  font-size: 2rem;
+  z-index: 2;
 }

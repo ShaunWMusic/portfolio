@@ -28,17 +28,18 @@
                      all of my favorite work. When I'm not developing, I enjoy spending
                      time with my family, leading worship at my church, drinking
                       coffee with my wife, eating pb sandwiches with my son.
-                      If you would like to follow me on Twitter. My username is <a href="/http://twitter.com/shaunwmusic">@Shaunwmusic</a>.</p>
+                      If you would like to follow me on Twitter. My username is <a href="http://twitter.com/shaunwmusic">@Shaunwmusic</a>.</p>
               </div>
             </div>
         </div>
       </div>
       <div class="section">
-        <a class="button is-large center" id="portfolio">View Resumé</a>
+        <a class="button is-large center" v-on:click="displayResume">View Resumé</a>
           <div class="resume">
-            <iframe class="pdf" src="https://drive.google.com/file/d/0B8LYSPVaGYxQX2tUOGd1bkY3RXc/preview" width="100%" height="100%"></iframe>
+              <i class="fa fa-times close-resume" v-on:click="closeResume" id="hidex" aria-hidden="true"></i>
+            <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQX2tUOGd1bkY3RXc/preview" width="100%" height="100%"></iframe>
           </div>
-    <div class="columns columns-portfolio is-desktop is-mobile">
+    <div class="columns columns-portfolio is-desktop is-mobile" id="portfolio">
       <div class="column">
           <div class="control">
           <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-mobile gif-left" src="/img/puppies.gif" alt=""></a>
@@ -100,7 +101,15 @@ export default {
     onScroll(e, position) {
       this.scrollPosition = e.target.scrollTop;
     },
+    displayResume() {
+      document.getElementById("resume").style.width = "75%";
+      document.getElementById("hidex").style.visibility = "visible";
+    },
+    closeResume() {
+      document.getElementById("resume").style.width = "0%";
+      document.getElementById("hidex").style.visibility = "hidden";
 
+    },
   },
 };
 </script>
