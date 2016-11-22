@@ -34,14 +34,14 @@
         </div>
       </div>
       <div class="section">
-        <a class="button is-large center" id="portfolio" @click="displayResume">View Resumé</a>
+        <a class="button is-large center" id="portfolio">View Resumé</a>
           <div class="resume">
-
+            <iframe class="pdf" src="https://drive.google.com/file/d/0B8LYSPVaGYxQX2tUOGd1bkY3RXc/preview" width="100%" height="100%"></iframe>
           </div>
     <div class="columns columns-portfolio is-desktop is-mobile">
       <div class="column">
           <div class="control">
-          <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-mobile" src="/img/puppies.gif" alt=""></a>
+          <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-mobile gif-left" src="/img/puppies.gif" alt=""></a>
         <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-desktop" src="/img/dpuppies.gif" alt=""></a>
         <img class="iphone" src="./img/iphonepic.png" alt="" />
         </div>
@@ -90,6 +90,10 @@ export default {
   mounted() {
     this.navOffset = this.$el.querySelector('.nav').offsetTop;
     this.scrollPosition = this.$el.scrollTop;
+    console.log('Hi! You must work in tech?!');
+    console.log('Thanks for checking out my portfolio site!');
+    console.log('If you are looking to hire, here is my email: shaunwmusic@gmail.com & twitter: shaunwmusic');
+    console.log('I would love to meet you!');
   },
 
   methods: {
@@ -97,9 +101,6 @@ export default {
       this.scrollPosition = e.target.scrollTop;
     },
 
-    displayResume() {
-      this.show()
-    }
   },
 };
 </script>

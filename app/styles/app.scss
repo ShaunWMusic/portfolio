@@ -110,12 +110,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   padding-bottom: 1rem;
   transition: color 500ms, background 500ms;
 
+
   &--dark {
     position: fixed;
     top: 0;
     background: rgba(247, 247, 247, 1.0);
     color: rgba(255, 255, 255, 1.0);
-
     }
 
     &--hidden {
@@ -129,6 +129,11 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
   &-item {
     color: white;
+    :hover {
+      border-bottom: 1px solid rgba(0, 209, 180, 1.0);
+      color: black;
+      transition: border-bottom 500ms;
+    }
   }
 }
 
@@ -182,6 +187,10 @@ filter: grayscale(100%);
   object-fit: contain;
   padding-left: 1rem;
 
+  &-left {
+    width: 95%;
+    padding-left: 1.8rem;
+  }
 
   &-mobile {
     display: block;
@@ -199,11 +208,13 @@ filter: grayscale(100%);
   transform: translate(0, 100%);
   font-size: 1.7rem;
 
-  @media(min-width: 730px) {
-    font-size: 3rem;
-    top: 0;
-    left: 7rem;
-    transform: translate(0, 100%);
+  &:hover {
+
+    a {
+      border-bottom: 1px solid rgba(0, 209, 180, 1.0);
+      text-decoration: none;
+      transition: border-bottom 500ms;
+    }
   }
 }
 
@@ -234,5 +245,17 @@ filter: grayscale(100%);
   display: flex;
   justify-content: center;
   margin: 1rem auto;
-  width: 30%;
+  width: 12rem;
+}
+
+.is-large {
+  border-radius: 0.7rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(#000, 0.4);
+}
+
+.pdf {
+  // display: none;
+  z-index: 4;
+  width: 0;
+  height: 100%;
 }
