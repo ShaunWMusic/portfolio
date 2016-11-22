@@ -11,7 +11,6 @@
                 <a href="/" class="subtitle">Shaun Willis | Web Developer</a></li>
           <li class="link nav-item"><a href="#portfolio">Portfolio</a></li>
           <li class="link nav-item"><a href="#about">About</li>
-            <li class="link nav-item"><a href="#skills">Skills</li>
           <li class="link nav-item"><a href="#contact">Contact</li>
         </ul>
       </nav>
@@ -94,7 +93,6 @@ export default {
     console.log('Hi! You must work in tech?!');
     console.log('Thanks for checking out my portfolio site!');
     console.log('If you are looking to hire, here is my email: shaunwmusic@gmail.com & twitter: shaunwmusic');
-    console.log('I would love to meet you!');
   },
 
   methods: {
