@@ -52,14 +52,16 @@
           <div class="control">
           <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop">
             <img class="gif gif-mobile gif-left" src="/img/puppies.gif" alt=""></a>
-            <img class="iphone" src="./img/iphonepic.png" alt="" />
+            <img class="iphone" src="./img/iphonepic.png" alt="">
+            <h4 class="card has-text-centered">App built using Vue.js</h4>
         </div>
       </div>
     <div class="column">
         <div class="control">
           <a href="https://github.com/ShaunWMusic/16-monster-mash/tree/develop">
             <img class="gif gif-mobile gif-boo" src="/img/boo.gif" alt=""></a>
-        <img class="iphone" src="./img/iphonepic2.png" alt="" />
+        <img class="iphone" src="./img/iphonepic2.png" alt="">
+        <h4 class="card has-text-centered">App built using Vue.js</h4>
       </div>
     </div>
       </div>
