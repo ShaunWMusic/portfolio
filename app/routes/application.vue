@@ -24,11 +24,19 @@
               <img class="about-img"src="./img/image-1.jpg" alt="">
               <div class="about-content">
               <h4 class="title">HELLO,</h4>
-                <p>I'm Shaun Willis. This is my design portfolio where I share
-                     all of my favorite work. When I'm not developing, I enjoy spending
-                     time with my family, leading worship at my church, drinking
-                      coffee with my wife, eating pb sandwiches with my son.
-                      If you would like to follow me on Twitter. My username is <a href="http://twitter.com/shaunwmusic">@Shaunwmusic</a>.</p>
+                <p>I am a web developer in greater Nashville area.
+                  I found my way into the tech scene after trying a few online coding schools
+                   and attending an immersive coding school at The Iron Yard Nashville. The Iron Yard
+                   lit a fire for a love of learning and continually pushing myself to learn the latest
+                    frameworks in Javascript, HTML and CSS.
+
+                 When I'm not on the job, I enjoy spending time with my wife and son, and serving in
+                  the community. I actively volunteer with my church, Water's Edge. I sing for the Saturday
+                  night service as well.</p>
+
+                <p>  With my unique background and experience, I'm eager to start building your next web application.
+                  You can email me here: Shaun.m.willis@gmail.com.
+                  You can follow me on Twitter. My username is <a href="http://twitter.com/shaunwmusic">@Shaunwmusic</a>.</p>
               </div>
             </div>
         </div>
