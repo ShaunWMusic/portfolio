@@ -2,12 +2,14 @@
   <div class="app" @scroll="onScroll">
     <div class="section is-paddingless">
       <img class="image image-mobile" src="../img/image-7c.jpeg" alt="">
-      <h1 class="nav-item title name-title"><a href="/">Shaun Willis | Web Developer</a></h1>
-
+      <h1 class="nav-item title name-title title-hidden"><a href="/">Shaun Willis | Web Developer</a></h1>
+      <h1 class="nav-item title-mobile name-title"><a href="/">Shaun Willis</a></h1>
       <nav class="nav" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
           <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
-                <a href="/" class="subtitle">Shaun Willis | Web Developer</a></li>
+                <a href="/" class="subtitle nav--title__hidden">Shaun Willis | Web Developer</a></li>
+          <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
+                <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li>
           <li class="link nav-item"><a href="#portfolio">Portfolio</a></li>
           <li class="link nav-item"><a href="#about">About</li>
           <li class="link nav-item"><a href="#contact">Contact</li>

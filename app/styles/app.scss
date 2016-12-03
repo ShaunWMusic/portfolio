@@ -65,6 +65,18 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .title {
   font-size: 3rem;
+
+&-hidden {
+  @media(max-width: 764px) {
+    visibility: hidden;
+  }
+}
+  &-mobile {
+
+    @media(min-width: 764px) {
+      visibility: hidden;
+    }
+  }
 }
 
 .fa {
@@ -124,6 +136,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     right: 0;
     background: rgba(247, 247, 247, 1.0);
     color: rgba(255, 255, 255, 1.0);
+
+
     }
 
     &--hidden {
@@ -133,6 +147,19 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     &--title {
       visibility: visible;
       transition: visibility 500ms;
+
+    &__hidden {
+      display: none;
+
+      @media(min-width: 764px) {
+        display: block;
+      }
+    }
+      &__mobile {
+        @media(min-width: 764px) {
+          visibility: hidden;
+        }
+      }
     }
 
   &-item {
@@ -201,7 +228,7 @@ filter: grayscale(100%);
   top: 0;
   left: 1rem;
   transform: translate(0, 100%);
-  font-size: 1.7rem;
+  font-size: 2rem;
 
   &:hover {
 
