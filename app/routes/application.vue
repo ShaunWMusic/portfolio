@@ -45,23 +45,31 @@
         <a class="button is-large center" v-on:click="displayResume">View Resumé</a>
           <div class="resume">
               <i class="fa fa-times close-resume" v-on:click="closeResume" id="hidex" aria-hidden="true"></i>
-            <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQX2tUOGd1bkY3RXc/preview" width="100%" height="100%"></iframe>
+            <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQX2tUOGd1bkY3RXc/preview" width="100%" height="100vh"></iframe>
           </div>
     <div class="columns columns-portfolio is-desktop is-mobile" id="portfolio">
       <div class="column">
           <div class="control">
-          <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop">
+          <a href="http://shaunpuppyadoption.surge.sh/">
             <img class="gif gif-mobile gif-left" src="/img/puppies.gif" alt=""></a>
             <img class="iphone" src="./img/iphonepic.png" alt="">
-            <h4 class="card has-text-centered">App built using Vue.js</h4>
+            <div class="description">
+              <h4 class="card has-text-centered">App built using Vue.js</h4>
+              <h4 class="card has-text-centered">
+                <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop">Click to view code</a></h4>
+            </div>
         </div>
       </div>
     <div class="column">
         <div class="control">
-          <a href="https://github.com/ShaunWMusic/16-monster-mash/tree/develop">
+          <a href="http://shaunmonstermash.surge.sh/">
             <img class="gif gif-mobile gif-boo" src="/img/boo.gif" alt=""></a>
         <img class="iphone" src="./img/iphonepic2.png" alt="">
-        <h4 class="card has-text-centered">App built using Vue.js</h4>
+      <div class="description">
+          <h4 class="card has-text-centered">App built using Vue.js</h4>
+        <h4 class="card has-text-centered">
+          <a href="https://github.com/ShaunWMusic/16-monster-mash/tree/develop">Click to view code</a></h4>
+      </div>
       </div>
     </div>
       </div>
