@@ -1,8 +1,7 @@
 <template lang="html">
   <div class="app" @scroll="onScroll">
     <div class="section is-paddingless">
-      <img class="image image-mobile" src="../img/image-7.jpg" alt="">
-      <img class="image image-tablet" src="../img/image-7.jpg" alt="">
+      <img class="image image-mobile" src="../img/image-7c.jpeg" alt="">
       <h1 class="nav-item title name-title"><a href="/">Shaun Willis | Web Developer</a></h1>
 
       <nav class="nav" :class="navOffset < scrollPosition ? 'nav--dark': null">
@@ -41,15 +40,15 @@
     <div class="columns columns-portfolio is-desktop is-mobile" id="portfolio">
       <div class="column">
           <div class="control">
-          <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-mobile gif-left" src="/img/puppies.gif" alt=""></a>
-        <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop"><img class="gif gif-desktop" src="/img/dpuppies.gif" alt=""></a>
-        <img class="iphone" src="./img/iphonepic.png" alt="" />
+          <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop">
+            <img class="gif gif-mobile gif-left" src="/img/puppies.gif" alt=""></a>
+            <img class="iphone" src="./img/iphonepic.png" alt="" />
         </div>
       </div>
     <div class="column">
         <div class="control">
-          <a href="https://github.com/ShaunWMusic/16-monster-mash/tree/develop"><img class="gif gif-mobile gif-boo" src="/img/boo.gif" alt=""></a>
-        <a href="https://github.com/ShaunWMusic/16-monster-mash/tree/develop"><img class="gif gif-desktop gif-boo" src="/img/dboo.gif" alt=""></a>
+          <a href="https://github.com/ShaunWMusic/16-monster-mash/tree/develop">
+            <img class="gif gif-mobile gif-boo" src="/img/boo.gif" alt=""></a>
         <img class="iphone" src="./img/iphonepic2.png" alt="" />
       </div>
     </div>

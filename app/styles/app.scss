@@ -26,6 +26,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   display: flex;
   justify-content: center;
   margin: 1rem;
+  flex-wrap: wrap;
 }
 
 .about-img {
@@ -34,6 +35,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   width: 50%;
   object-fit: cover;
   margin: 1rem;
+  flex-grow: 1;
 }
 
 .general-information {
@@ -43,9 +45,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 }
 
 .about-content {
-  flex-basis: calc(50%);
+  flex-basis: calc(36%);
   padding: 1rem;
   margin: 1rem;
+  flex-grow: 1;
+  min-width: 25rem;
+  text-align: center;
 }
 
 .contact-details {
@@ -146,10 +151,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   justify-content: center;
   max-width: 50rem;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .column {
 filter: grayscale(100%);
+// min-width: 25rem;
 
   &:hover {
     filter: grayscale(0);
@@ -161,46 +168,32 @@ filter: grayscale(100%);
 
 }
 
+.control {
+  min-width: 21rem;
+
+}
+
 .image {
   height: 94vh;
   width: 100%;
   object-fit: cover;
-
-  &-mobile {
-    display: block;
-    @media(min-width: 730px) {
-      display: none;
-    }
-  }
-
-  &-tablet {
-    display: none;
-  @media(min-width: 730px) {
-    display: block;
-  }
-}
 }
 
 .gif {
   overflow: auto;
   height: 52rem;
-  width: 88%;
+  width: 22rem;
   margin: 0 auto;
   object-fit: contain;
-  padding-left: 1rem;
+  padding-left: 2.5rem;
+
 
   &-left {
-    width: 95%;
-    padding-left: 1.8rem;
+    width: 22rem;
+    padding-left: 2.2rem;
   }
 
-  &-mobile {
-    display: block;
-  }
 
-  &-desktop {
-    display: none;
-  }
 }
 
 .name-title {
@@ -238,9 +231,11 @@ filter: grayscale(100%);
   left: 1rem;
   transform: translate(0,0);
   z-index: -1;
-  height: 85vh;
+  height: 46rem;
   border-radius: 3rem;
-  max-width: 30rem;
+  // max-width: 25rem;
+  // min-width: 30rem;
+  flex-wrap: wrap;
 }
 
 .center {
