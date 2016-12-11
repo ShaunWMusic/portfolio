@@ -87,7 +87,7 @@
               <a href="http://facebook.com/shaunwmusic"><span class="fa fa-facebook"></span></a>
               <a href="https://www.linkedin.com/in/shaunwillis"><span class="fa fa-linkedin"></span></a>
               <a href="https://www.github.com/shaunwmusic"><span class="fa fa-github"></span></a>
-              <p>© Shaun Willis.</p>
+              <p>©2016 Shaun Willis.</p>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ export default {
     this.scrollPosition = this.$el.scrollTop;
     console.log('Hi! You must work in tech?!');
     console.log('Thanks for checking out my portfolio site!');
-    console.log('If you are looking to hire, here is my email: shaunwmusic@gmail.com & twitter: shaunwmusic');
+    console.log('If you are looking to hire, here is my email: hello@shaunwillis.co & twitter: shaunwmusic');
   },
 
   methods: {
