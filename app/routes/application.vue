@@ -4,6 +4,8 @@
       <img class="image image-mobile" src="../img/image-7c.jpeg" alt="">
       <h1 class="nav-item title name-title title-hidden"><a href="/">Shaun Willis | Web Developer</a></h1>
       <h1 class="nav-item title-mobile name-title"><a href="/">Shaun Willis</a></h1>
+      <h5 class="nav-item title-mobile name-title__email"><a href="/">hello@shaunwillis.co</a></h5>
+      <h5 class="nav-item title-mobile name-title__phone"><a href="/">615-556-3930</a></h5>
       <nav class="nav" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
           <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
@@ -35,7 +37,7 @@
                   night service as well.</p>
 
                 <p>  With my unique background and experience, I'm eager to start building your next web application.
-                  You can email me here: Shaun.m.willis@gmail.com.
+                  You can email me here: hello@shaunwillis.co.
                   You can follow me on Twitter. My username is <a href="http://twitter.com/shaunwmusic">@Shaunwmusic</a>.</p>
               </div>
             </div>
@@ -45,7 +47,7 @@
         <a class="button is-large center" v-on:click="displayResume">View Resumé</a>
           <div class="resume">
               <i class="fa fa-times close-resume" v-on:click="closeResume" id="hidex" aria-hidden="true"></i>
-            <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQX2tUOGd1bkY3RXc/preview" width="100%" height="100vh"></iframe>
+            <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQQU5WNzJzcU56QlU/preview" width="100%" height="100vh"></iframe>
           </div>
     <div class="columns columns-portfolio is-desktop is-mobile" id="portfolio">
       <div class="column">
@@ -82,7 +84,7 @@
               <div class="contact-details has-text-centered">
 
               <a href="tel:615-556-3930"><span class="fa fa-phone"></span></a>
-              <a href="mailto:shaunwmusic@gmail.com"><span class="fa fa-envelope"></span></a>
+              <a href="mailto:hello@shaunwillis.co"><span class="fa fa-envelope"></span></a>
               <a href="https://www.twitter.com/intent/tweet?screen_name=shaunwmusic"><span class="fa fa-twitter"></span></a>
               <a href="http://facebook.com/shaunwmusic"><span class="fa fa-facebook"></span></a>
               <a href="https://www.linkedin.com/in/shaunwillis"><span class="fa fa-linkedin"></span></a>
