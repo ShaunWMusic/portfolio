@@ -20,7 +20,7 @@
         </ul>
       </nav>
       </div>
-      <div class="fa fa-hand-o-down page-down animated infinite bounce"></div>
+      <a href="#about"><div class="fa fa-angle-down page-down animated infinite bounce"></div></a>
       <div class="section section-about">
         <div class="container">
           <h2 class="title has-text-centered" id="about"></h2>
@@ -48,13 +48,14 @@
       <div class="section">
         <div class="container">
           <div class="skills" id="skills">
-            <h3>Ember.js, Vue.js, Vanilla.js, ESlint, Github, Git, CSS3, HTML5, Handlebars, jQuery, NPM,
+            <h2>Technologies</h2>
+            <h3 class="skills-content">Ember.js, Vue.js, Vanilla.js, ESlint, Github, Git, CSS3, HTML5, Handlebars, jQuery, NPM,
 
 SASS, Atom, Sketch, Bulma, Adonis.js, Node.js, Babel, TravisCI, Heroku, Yeoman, Yarn,
 
 Broccoli.js, Visual Studio</h3>
           </div>
-          <img src="/img/imac.png" class="imac" alt="">
+
         </div>
       </div>
 
@@ -65,6 +66,9 @@ Broccoli.js, Visual Studio</h3>
             <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQQU5WNzJzcU56QlU/preview" width="100%" height="100vh"></iframe>
           </div>
     <div class="columns columns-portfolio is-desktop is-mobile" id="portfolio">
+
+      <img src="/img/ASafetyNetGif.gif" class="gif-finalproject" alt="">
+      <img src="/img/imac.png" class="imac" alt="">
       <div class="column">
           <div class="control">
           <a href="http://shaunpuppyadoption.surge.sh/">

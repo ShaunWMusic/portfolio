@@ -125,17 +125,27 @@ body {
 
 .skills {
   height: 18.3rem;
-  position: absolute;
-  top: 2rem;
-  left: 13.7rem;
+  // position: absolute;
+  // top: 2rem;
+  // left: 13.7rem;
   background: #fff;
-  max-width: 32.7rem;
+  // max-width: 32.7rem;
+  // min-width: 32.7rem;
   font-size: 1.8rem;
   text-align: center;
-
+  @media(max-width: 764px) {
+    // left: 8.3rem;
+  }
+  @media(max-width: 440px) {
+    // left: 1rem;
+  }
 
 &-content {
-  padding: 1rem;
+  // padding: 1rem;
+
+  @media(max-width: 440px) {
+
+  }
 }
 }
 .portfolio {
@@ -245,7 +255,19 @@ filter: grayscale(100%);
   object-fit: contain;
   padding: 0 1rem 0 1.3rem;
 
+  &-finalproject{
+    position: absolute;
+    top: 8.4rem;
+    left: 35rem;
+    width: 32.8rem;
+    object-fit: cover;
+    height: 17rem;
 
+    @media(max-width: 764px) {
+      top: 8.4rem;
+      left: 9.3rem;
+    }
+  }
   &-left {
     width: 22rem;
     padding: 0 1rem 0 1.3rem;
@@ -295,6 +317,10 @@ filter: grayscale(100%);
   top: 94%;
   left: 25%;
   transform: translate(-100%, -100%);
+
+    @media(max-width: 764px) {
+      left: 8%;
+    }
 }
 
 .name-title {
@@ -305,7 +331,7 @@ filter: grayscale(100%);
   font-size: 2.5rem;
 
   @media(max-width: 440px) {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   &:hover {
@@ -330,6 +356,13 @@ filter: grayscale(100%);
         transition: border-bottom 500ms;
       }
     }
+
+      @media(max-width: 764px) {
+        font-size: 1.5rem;
+      }
+      @media(max-width: 440px) {
+        font-size: 1rem;
+      }
   }
 
   &__phone {
@@ -345,6 +378,10 @@ filter: grayscale(100%);
         transition: border-bottom 500ms;
       }
     }
+
+      @media(max-width: 764px) {
+        font-size: 1.5rem;
+      }
   }
 }
 
