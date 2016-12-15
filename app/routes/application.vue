@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="app" @scroll="onScroll">
     <div class="section is-paddingless">
-      <img class="image image-mobile" src="../img/image-7c.jpeg" alt="">
+      <div class="image image-mobile"></div>
       <h1 class="nav-item title name-title title-hidden"><a href="/">Shaun Willis | Web Developer</a></h1>
       <h1 class="nav-item title-mobile name-title"><a href="tel:615-556-3930">Shaun Willis</a></h1>
       <h5 class="name-title__email"><a href="mailto:hello@shaunwillis.co">hello@shaunwillis.co</a></h5>
@@ -25,7 +25,7 @@
         <div class="container">
           <h2 class="title has-text-centered" id="about"></h2>
             <div class="about">
-              <img class="about-img"src="./img/image-1.jpg" alt="">
+              <img class="about-img"src="./img/fam.jpg" alt="">
               <div class="about-content">
               <h4 class="title">HELLO,</h4>
                 <p>I am a web developer in greater Nashville area.
@@ -50,25 +50,24 @@
           <div class="skills" id="skills">
             <h2>Technologies</h2>
             <h3 class="skills-content">Ember.js, Vue.js, Vanilla.js, ESlint, Github, Git, CSS3, HTML5, Handlebars, jQuery, NPM,
-
-SASS, Atom, Sketch, Bulma, Adonis.js, Node.js, Babel, TravisCI, Heroku, Yeoman, Yarn,
-
-Broccoli.js, Visual Studio</h3>
+            SASS, Atom, Sketch, Bulma, Adonis.js, Node.js, Babel, TravisCI, Heroku, Yeoman, Yarn,
+            Broccoli.js, Visual Studio</h3>
           </div>
 
         </div>
       </div>
 
       <div class="section">
-        <a class="button is-large center" v-on:click="displayResume">View Resumé</a>
-          <div class="resume">
-              <i class="fa fa-times close-resume" v-on:click="closeResume" id="hidex" aria-hidden="true"></i>
-            <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQQU5WNzJzcU56QlU/preview" width="100%" height="100vh"></iframe>
-          </div>
+        <a class="button button-position is-large center" v-on:click="displayResume">View Résumé</a>
+        <div class="resume">
+          <i class="fa fa-times close-resume" v-on:click="closeResume" id="hidex" aria-hidden="true"></i>
+          <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQQU5WNzJzcU56QlU/preview" width="100%" height="100vh"></iframe>
+        </div>
     <div class="columns columns-portfolio is-desktop is-mobile" id="portfolio">
-
+      <a href="https://asafetynet.herokuapp.com/">
       <img src="/img/ASafetyNetGif.gif" class="gif-finalproject" alt="">
       <img src="/img/imac.png" class="imac" alt="">
+      </a>
       <div class="column">
           <div class="control">
           <a href="http://shaunpuppyadoption.surge.sh/">

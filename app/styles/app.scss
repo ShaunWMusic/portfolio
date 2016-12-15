@@ -20,10 +20,22 @@ body {
   overflow: hidden;
   position: relative;
 
+  a {
+    color: rgba(110,112,112,1);
+    &:hover {
+      color: black;
+    }
+  }
+
 }
 
 .section-about {
   background: rgba(247, 247, 247, 1.0);
+}
+
+.head-image img {
+    height: 10rem;
+    object-fit: contain;
 }
 
 .about {
@@ -31,6 +43,15 @@ body {
   justify-content: center;
   margin: 1rem;
   flex-wrap: wrap;
+
+  a {
+    color: rgba(110,112,112,1);
+
+    &:hover {
+      color: black;
+    }
+  }
+
 }
 
 .about-img {
@@ -200,7 +221,7 @@ body {
     font-size: 1.5rem;
 
     :hover {
-      border-bottom: 1px solid rgba(0, 209, 180, 1.0);
+      border-bottom: 1px solid rgba(110,112,112,1);
       color: black;
       transition: border-bottom 500ms;
     }
@@ -215,7 +236,7 @@ body {
 }
 
 .column {
-filter: grayscale(100%);
+filter: grayscale(0);
 
 @media(min-width: 440px) {
   width: 25rem;
@@ -223,7 +244,7 @@ filter: grayscale(100%);
 }
 
   &:hover {
-    filter: grayscale(0);
+    // filter: grayscale(0);
   }
 
   &-portfolio {
@@ -242,9 +263,9 @@ filter: grayscale(100%);
 }
 
 .image {
-  height: 104vh;
-  width: 100%;
-  object-fit: cover;
+  margin: 0 0 0 50%;
+  height: 29vh;
+  object-fit: contain;
 }
 
 .gif {
@@ -255,7 +276,7 @@ filter: grayscale(100%);
   object-fit: contain;
   padding: 0 1rem 0 1.3rem;
 
-  &-finalproject{
+  &-finalproject {
     position: absolute;
     top: 8.4rem;
     left: 35rem;
@@ -266,6 +287,10 @@ filter: grayscale(100%);
     @media(max-width: 764px) {
       top: 8.4rem;
       left: 9.3rem;
+    }
+    @media(max-width: 440px) {
+      left: 3.3rem;
+      width: 28.5rem;
     }
   }
   &-left {
@@ -325,9 +350,9 @@ filter: grayscale(100%);
 
 .name-title {
   position: absolute;
-  top: 0;
+  top: -3rem;
   left: 1rem;
-  transform: translate(0, 100%);
+  transform: translate(0,100%);
   font-size: 2.5rem;
 
   @media(max-width: 440px) {
@@ -337,7 +362,8 @@ filter: grayscale(100%);
   &:hover {
 
     a {
-      border-bottom: 1px solid rgba(0, 209, 180, 1.0);
+      color: black;
+      border-bottom: 1px solid rgba(110,112,112,1);
       text-decoration: none;
       transition: border-bottom 500ms;
     }
@@ -345,41 +371,57 @@ filter: grayscale(100%);
 
   &__email {
     position: absolute;
-    top: 10rem;
-    left: 1.9rem;
+    top: 1rem;
+    right: 1.7rem;
     font-size: 1.8rem;
+
+    a {
+      color: rgba(110,112,112,1);
+    }
+
     &:hover {
 
       a {
-        border-bottom: 1px solid rgba(0, 209, 180, 1.0);
+        color: black;
+        border-bottom: 1px solid rgba(110,112,112,1);
         text-decoration: none;
         transition: border-bottom 500ms;
       }
     }
 
       @media(max-width: 764px) {
+        top: 3.5rem;
         font-size: 1.5rem;
       }
       @media(max-width: 440px) {
+        position: absolute;
+        top: 5rem;
+        left: 1.7rem;
         font-size: 1rem;
       }
   }
 
   &__phone {
     position: absolute;
-    top: 15rem;
-    left: 1.9rem;
+    top: 3rem;
+    right: 1.7rem;
     font-size: 1.8rem;
+    a {
+      color: rgba(110,112,112,1);
+    }
+
     &:hover {
 
       a {
-        border-bottom: 1px solid rgba(0, 209, 180, 1.0);
+        color: black;
+        border-bottom: 1px solid rgba(110,112,112,1);
         text-decoration: none;
         transition: border-bottom 500ms;
       }
     }
 
       @media(max-width: 764px) {
+        top: 6.5rem;
         font-size: 1.5rem;
       }
   }
@@ -434,6 +476,11 @@ filter: grayscale(100%);
   top: 4rem;
   left: 9rem;
   background-color: black;
+}
+
+.button-position {
+  // position: absolute;
+  // top: 1rem;
 }
 
 .close-resume {
