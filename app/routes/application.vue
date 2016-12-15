@@ -20,7 +20,7 @@
         </ul>
       </nav>
       </div>
-      <div class="fa fa-hand-o-down page-down"></div>
+      <div class="fa fa-hand-o-down page-down animated infinite bounce"></div>
       <div class="section section-about">
         <div class="container">
           <h2 class="title has-text-centered" id="about"></h2>
