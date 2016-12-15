@@ -119,15 +119,32 @@ body {
 .container {
   max-width: 60rem;
   margin: 0 auto;
+  position: relative;
+  text-align: center;
 }
 
-.skills-content {
+.skills {
+  height: 18.3rem;
+  position: absolute;
+  top: 2rem;
+  left: 13.7rem;
+  background: #fff;
+  max-width: 32.7rem;
+  font-size: 1.8rem;
+  text-align: center;
+
+
+&-content {
   padding: 1rem;
 }
-
+}
 .portfolio {
   margin: 1rem;
   padding-bottom: 1rem;
+}
+
+.imac {
+  margin: 0 auto;
 }
 
 .nav {
@@ -170,7 +187,7 @@ body {
 
   &-item {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     :hover {
       border-bottom: 1px solid rgba(0, 209, 180, 1.0);
@@ -189,7 +206,11 @@ body {
 
 .column {
 filter: grayscale(100%);
-// min-width: 25rem;
+
+@media(min-width: 440px) {
+  width: 25rem;
+  margin: 0 auto;
+}
 
   &:hover {
     filter: grayscale(0);
@@ -211,7 +232,7 @@ filter: grayscale(100%);
 }
 
 .image {
-  height: 94vh;
+  height: 104vh;
   width: 100%;
   object-fit: cover;
 }
@@ -247,6 +268,33 @@ filter: grayscale(100%);
   padding: 1rem;
   height: 3.7rem;
   width: 19.8rem;
+
+  &-top {
+    position: absolute;
+    top: 8.8rem;
+    left: 1.3rem;
+    background: #000;
+    padding: 1rem;
+    height: 5.7rem;
+    width: 19.8rem;
+  }
+
+  &-left {
+    position: absolute;
+    top: 8.8rem;
+    left: 1.3rem;
+    background: #000;
+    padding: 1rem;
+    height: 0.001rem;
+    width: 19.8rem;
+  }
+}
+
+.page-down {
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  transform: translate(-100%, -100%);
 }
 
 .name-title {
@@ -256,12 +304,46 @@ filter: grayscale(100%);
   transform: translate(0, 100%);
   font-size: 2.5rem;
 
+  @media(max-width: 440px) {
+    font-size: 1.5rem;
+  }
+
   &:hover {
 
     a {
       border-bottom: 1px solid rgba(0, 209, 180, 1.0);
       text-decoration: none;
       transition: border-bottom 500ms;
+    }
+  }
+
+  &__email {
+    position: absolute;
+    top: 10rem;
+    left: 1.9rem;
+    font-size: 1.8rem;
+    &:hover {
+
+      a {
+        border-bottom: 1px solid rgba(0, 209, 180, 1.0);
+        text-decoration: none;
+        transition: border-bottom 500ms;
+      }
+    }
+  }
+
+  &__phone {
+    position: absolute;
+    top: 15rem;
+    left: 1.9rem;
+    font-size: 1.8rem;
+    &:hover {
+
+      a {
+        border-bottom: 1px solid rgba(0, 209, 180, 1.0);
+        text-decoration: none;
+        transition: border-bottom 500ms;
+      }
     }
   }
 }

@@ -3,22 +3,24 @@
     <div class="section is-paddingless">
       <img class="image image-mobile" src="../img/image-7c.jpeg" alt="">
       <h1 class="nav-item title name-title title-hidden"><a href="/">Shaun Willis | Web Developer</a></h1>
-      <h1 class="nav-item title-mobile name-title"><a href="/">Shaun Willis</a></h1>
-      <h5 class="nav-item title-mobile name-title__email"><a href="/">hello@shaunwillis.co</a></h5>
-      <h5 class="nav-item title-mobile name-title__phone"><a href="/">615-556-3930</a></h5>
+      <h1 class="nav-item title-mobile name-title"><a href="tel:615-556-3930">Shaun Willis</a></h1>
+      <h5 class="name-title__email"><a href="mailto:hello@shaunwillis.co">hello@shaunwillis.co</a></h5>
+      <h5 class="name-title__phone"><a href="tel:615-556-3930">615-556-3930</a></h5>
       <nav class="nav" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
           <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
                 <a href="/" class="subtitle nav--title__hidden">Shaun Willis | Web Developer</a></li>
           <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
                 <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li>
+                <li class="link nav-item"><a href="#about">About</li>
+                  <li class="link nav-item"><a href="#skills">Skills</a></li>
           <li class="link nav-item"><a href="#portfolio">Portfolio</a></li>
-          <li class="link nav-item"><a href="#about">About</li>
           <li class="link nav-item"><a href="#contact">Contact</li>
+          <li class="link nav-item"><a href="http://www.shaunwillisblog.wordpress.com">Blog</li>
         </ul>
       </nav>
-
       </div>
+      <div class="fa fa-hand-o-down page-down"></div>
       <div class="section section-about">
         <div class="container">
           <h2 class="title has-text-centered" id="about"></h2>
@@ -44,6 +46,19 @@
         </div>
       </div>
       <div class="section">
+        <div class="container">
+          <div class="skills" id="skills">
+            <h3>Ember.js, Vue.js, Vanilla.js, ESlint, Github, Git, CSS3, HTML5, Handlebars, jQuery, NPM,
+
+SASS, Atom, Sketch, Bulma, Adonis.js, Node.js, Babel, TravisCI, Heroku, Yeoman, Yarn,
+
+Broccoli.js, Visual Studio</h3>
+          </div>
+          <img src="/img/imac.png" class="imac" alt="">
+        </div>
+      </div>
+
+      <div class="section">
         <a class="button is-large center" v-on:click="displayResume">View Resumé</a>
           <div class="resume">
               <i class="fa fa-times close-resume" v-on:click="closeResume" id="hidex" aria-hidden="true"></i>
@@ -60,6 +75,7 @@
               <h4 class="card has-text-centered">
                 <a href="https://github.com/ShaunWMusic/17-puppy-adoption/tree/develop">Click to view code</a></h4>
             </div>
+            <div class="card black-space-left"></div>
         </div>
       </div>
     <div class="column">
@@ -73,6 +89,7 @@
           <a href="https://github.com/ShaunWMusic/16-monster-mash/tree/develop">Click to view code</a></h4>
       </div>
       <div class="card black-space"></div>
+      <div class="card black-space-top"></div>
       </div>
     </div>
       </div>
