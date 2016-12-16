@@ -27,8 +27,8 @@
             <div class="about">
               <img class="about-img"src="./img/fam.jpg" alt="">
               <div class="about-content">
-              <h4 class="title">HELLO,</h4>
-                <p>I am a web developer in greater Nashville area.
+
+                <p><h4 class="about-content__header">HELLO,</h4>I am a web developer in greater Nashville area.
                   I found my way into the tech scene after trying a few online coding schools
                    and attending an immersive coding school at The Iron Yard Nashville. The Iron Yard
                    lit a fire for a love of learning and continually pushing myself to learn the latest
@@ -45,18 +45,6 @@
             </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="skills" id="skills">
-            <h2>Technologies</h2>
-            <h3 class="skills-content">Ember.js, Vue.js, Vanilla.js, ESlint, Github, Git, CSS3, HTML5, Handlebars, jQuery, NPM,
-            SASS, Atom, Sketch, Bulma, Adonis.js, Node.js, Babel, TravisCI, Heroku, Yeoman, Yarn,
-            Broccoli.js, Visual Studio</h3>
-          </div>
-
-        </div>
-      </div>
-
       <div class="section">
         <a class="button button-position is-large center" v-on:click="displayResume">View Résumé</a>
         <div class="resume">
@@ -95,6 +83,17 @@
       <div class="card black-space-top"></div>
       </div>
     </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="skills" id="skills">
+          <h2>Technologies</h2>
+          <h3 class="skills-content">Ember.js, Vue.js, Vanilla.js, ESlint, Github, Git, CSS3, HTML5, Handlebars, jQuery, NPM,
+          SASS, Atom, Sketch, Bulma, Adonis.js, Node.js, Babel, TravisCI, Heroku, Yeoman, Yarn,
+          Broccoli.js, Visual Studio</h3>
+        </div>
+
       </div>
     </div>
       <div class="section">
