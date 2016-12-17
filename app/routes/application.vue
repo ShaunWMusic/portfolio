@@ -144,6 +144,7 @@ export default {
     return {
       scrollPosition: 0,
       navOffset: 0,
+      cb: null,
     };
   },
 
@@ -152,7 +153,7 @@ export default {
     this.scrollPosition = this.$el.scrollTop;
     console.log('Hi! You must work in tech?!');
     console.log('Thanks for checking out my portfolio site!');
-    console.log('If you are looking to hire, here is my email: hello@shaunwillis.co & twitter: shaunwmusic');
+    console.log('I am currently available for hire, here is my email: hello@shaunwillis.co, phone: 615-556-3930 & twitter: shaunwmusic');
   },
 
   methods: {
