@@ -6,7 +6,24 @@
       <h1 class="nav-item title-mobile name-title"><a href="tel:615-556-3930">Shaun Willis</a></h1>
       <h5 class="name-title__email"><a href="mailto:hello@shaunwillis.co">hello@shaunwillis.co</a></h5>
       <h5 class="name-title__phone"><a href="tel:615-556-3930">615-556-3930</a></h5>
-      <nav class="nav" :class="navOffset < scrollPosition ? 'nav--dark': null">
+      <nav class="nav nav-mobile" :class="navOffset < scrollPosition ? 'nav--dark': null">
+        <ul class="nav-center">
+          <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
+                <a href="/" class="subtitle nav--title__hidden">Shaun Willis | Web Developer</a></li>
+          <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
+                <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li>
+          <div class="nav-mobile--menu" id="menu">
+            <li class="link nav-item"><a href="#about">About</li>
+            <li class="link nav-item"><a href="#skills">Skills</a></li>
+            <li class="link nav-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="link nav-item"><a href="#contact">Contact</li>
+            <li class="link nav-item"><a href="http://www.shaunwillisblog.wordpress.com">Blog</li>
+          </div>
+          <div class="fa fa-bars" id="hidebars" v-on:click="displayMenu"></div>
+          <div class="fa fa-times hide-times" id="hidetimes" v-on:click="closeMenu"></div>
+        </ul>
+      </nav>
+      <nav class="nav nav-desktop" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
           <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
                 <a href="/" class="subtitle nav--title__hidden">Shaun Willis | Web Developer</a></li>
@@ -51,11 +68,13 @@
           <i class="fa fa-times close-resume" v-on:click="closeResume" id="hidex" aria-hidden="true"></i>
           <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQQU5WNzJzcU56QlU/preview" width="100%" height="100vh"></iframe>
         </div>
+        <div class="wrap">
+          <a href="https://asafetynet.herokuapp.com/">
+            <img src="/img/ASafetyNetGif.gif" class="gif-finalproject" alt="">
+            <img src="/img/imac.png" class="imac" alt="">
+          </a>
+        </div>
     <div class="columns columns-portfolio is-desktop is-mobile" id="portfolio">
-      <a href="https://asafetynet.herokuapp.com/">
-      <img src="/img/ASafetyNetGif.gif" class="gif-finalproject" alt="">
-      <img src="/img/imac.png" class="imac" alt="">
-      </a>
       <div class="column">
           <div class="control">
           <a href="http://shaunpuppyadoption.surge.sh/">
@@ -148,6 +167,16 @@ export default {
       document.getElementById("resume").style.width = "0%";
       document.getElementById("hidex").style.visibility = "hidden";
 
+    },
+    displayMenu() {
+      document.getElementById("menu").style.display = "block";
+      document.getElementById("hidetimes").style.visibility = "visible";
+      document.getElementById("hidebars").style.visibility = "hidden";
+    },
+    closeMenu() {
+      document.getElementById("menu").style.display = "none";
+      document.getElementById("hidetimes").style.visibility = "hidden";
+      document.getElementById("hidebars").style.visibility = "visible";
     },
   },
 };

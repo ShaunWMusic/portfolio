@@ -174,6 +174,7 @@ body {
   }
 }
 }
+
 .portfolio {
   margin: 1rem;
   padding-bottom: 1rem;
@@ -181,7 +182,7 @@ body {
 
 .imac {
   margin: 0 auto;
-  height: 39.5rem;
+  height: 27.5rem;
 }
 
 .nav {
@@ -189,8 +190,30 @@ body {
   padding-bottom: 1rem;
   transition: color 500ms, background 500ms;
   z-index: 1;
-  right: 7rem;
+  // right: 7rem;
 
+  &-center {
+    margin-right: 2rem;
+  }
+  &-desktop {
+    display: block;
+    @media(max-width: 764px) {
+      display: none;
+    }
+  }
+
+  &-mobile {
+    display: flex;
+    flex-direction: column;
+
+    @media(min-width: 764px) {
+      display: none;
+    }
+
+    &--menu {
+      display: none;
+    }
+  }
 
   &--dark {
     position: fixed;
@@ -216,6 +239,8 @@ body {
       }
     }
       &__mobile {
+          margin-right: 13rem;
+          font-size: 2rem;
         @media(min-width: 764px) {
           visibility: hidden;
         }
@@ -274,6 +299,24 @@ filter: grayscale(0);
   object-fit: contain;
 }
 
+.wrap {
+  display: flex;
+  justify-content: center;
+  max-width: 32rem;
+  position: relative;
+  margin: auto;
+}
+
+
+.gif-finalproject {
+  position: absolute;
+  top: 2rem;
+  left: 1.9rem;
+  object-fit: cover;
+  height: 15rem;
+}
+
+
 .gif {
   overflow: auto;
   height: 52rem;
@@ -282,24 +325,7 @@ filter: grayscale(0);
   object-fit: contain;
   padding: 0 1rem 0 1.3rem;
 
-  &-finalproject {
-    position: absolute;
-    top: 8.9rem;
-    left: 30.33rem;
-    width: 42.1rem;
-    object-fit: cover;
-    height: 22rem;
-
-    @media(max-width: 764px) {
-      top: 8.4rem;
-      left: 9.3rem;
-    }
-    @media(max-width: 440px) {
-      left: 3.3rem;
-      width: 28.5rem;
-    }
-  }
-  &-left {
+    &-left {
     width: 22rem;
     padding: 0 1rem 0 1.3rem;
   }
@@ -401,9 +427,9 @@ filter: grayscale(0);
       }
       @media(max-width: 440px) {
         position: absolute;
-        top: 5rem;
+        top: 4.5rem;
         left: 1.7rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
   }
 
@@ -428,6 +454,11 @@ filter: grayscale(0);
 
       @media(max-width: 764px) {
         top: 6.5rem;
+        font-size: 1.5rem;
+      }
+      @media(max-width: 440px) {
+        top: 6.5rem;
+        left: 1.7rem;
         font-size: 1.5rem;
       }
   }
@@ -497,4 +528,8 @@ filter: grayscale(0);
   color: black;
   font-size: 2rem;
   z-index: 2;
+}
+
+.hide-times {
+  visibility: hidden;
 }
