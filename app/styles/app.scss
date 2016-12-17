@@ -224,11 +224,11 @@ body {
     }
 
     &--hidden {
-      visibility: hidden;
+      display: none;
     }
 
     &--title {
-      visibility: visible;
+      display: none;
       transition: visibility 500ms;
 
     &__hidden {
