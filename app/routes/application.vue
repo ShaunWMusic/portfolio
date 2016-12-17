@@ -8,10 +8,10 @@
       <h5 class="name-title__phone"><a href="tel:615-556-3930">615-556-3930</a></h5>
       <nav class="nav nav-mobile" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
-          <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
+          <!-- <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
                 <a href="/" class="subtitle nav--title__hidden">Shaun Willis | Web Developer</a></li>
           <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
-                <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li>
+                <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li> -->
           <div class="nav-mobile--menu" id="menu">
             <li class="link nav-item"><a href="#about">About</li>
             <li class="link nav-item"><a href="#skills">Skills</a></li>
@@ -25,10 +25,10 @@
       </nav>
       <nav class="nav nav-desktop" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
-          <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
+          <!-- <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
                 <a href="/" class="subtitle nav--title__hidden">Shaun Willis | Web Developer</a></li>
           <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
-                <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li>
+                <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li> -->
                 <li class="link nav-item"><a href="#about">About</li>
                   <li class="link nav-item"><a href="#skills">Skills</a></li>
           <li class="link nav-item"><a href="#portfolio">Portfolio</a></li>
@@ -127,7 +127,7 @@
               <a href="http://facebook.com/shaunwmusic"><span class="fa fa-facebook"></span></a>
               <a href="https://www.linkedin.com/in/shaunwillis"><span class="fa fa-linkedin"></span></a>
               <a href="https://www.github.com/shaunwmusic"><span class="fa fa-github"></span></a>
-              <p>©2016 Shaun Willis.</p>
+              <p>©2016 Shaun Willis. Built using Vue.js</p>
               </div>
             </div>
           </div>
