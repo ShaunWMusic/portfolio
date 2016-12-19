@@ -15,6 +15,10 @@ body {
   overflow: scroll;
 }
 
+.fa-bars {
+  position: absolute;
+}
+
 .section {
   padding: 1rem;
   overflow: hidden;
@@ -267,16 +271,14 @@ body {
 }
 
 .column {
-filter: grayscale(0);
+  flex-grow: 0;
+  filter: grayscale(0);
 
 @media(min-width: 440px) {
   width: 25rem;
-  margin: 0 auto;
-}
+  min-width: 25rem;
 
-  &:hover {
-    // filter: grayscale(0);
-  }
+}
 
   &-portfolio {
     height: 100vh;
@@ -302,7 +304,8 @@ filter: grayscale(0);
 .wrap {
   display: flex;
   justify-content: center;
-  max-width: 32rem;
+  max-width: 32.3rem;
+  min-width: 32.3rem;
   position: relative;
   margin: auto;
 }
