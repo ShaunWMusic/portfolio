@@ -58,7 +58,7 @@
         <a class="button button-position is-large center" v-on:click="displayResume">View Résumé</a>
         <div class="resume">
           <i class="fa fa-times close-resume" v-on:click="closeResume" id="hidex" aria-hidden="true"></i>
-          <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQQU5WNzJzcU56QlU/preview" width="100%" height="100vh"></iframe>
+          <iframe class="pdf" id="resume" src="https://drive.google.com/file/d/0B8LYSPVaGYxQVkdveENlSUFIUVk/preview" width="100%" height="100vh"></iframe>
         </div>
         <div class="wrap">
           <a href="https://asafetynet.herokuapp.com/">
