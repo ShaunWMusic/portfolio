@@ -8,10 +8,6 @@
       <h5 class="name-title__phone"><a href="tel:615-556-3930">615-556-3930</a></h5>
       <nav class="nav nav-mobile" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
-          <!-- <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
-                <a href="/" class="subtitle nav--title__hidden">Shaun Willis | Web Developer</a></li>
-          <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
-                <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li> -->
           <div class="nav-mobile--menu" id="menu">
             <li class="link nav-item"><a href="#about">About</li>
             <li class="link nav-item"><a href="#skills">Skills</a></li>
@@ -25,10 +21,6 @@
       </nav>
       <nav class="nav nav-desktop" :class="navOffset < scrollPosition ? 'nav--dark': null">
         <ul class="nav-center">
-          <!-- <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
-                <a href="/" class="subtitle nav--title__hidden">Shaun Willis | Web Developer</a></li>
-          <li class="link nav-item nav--hidden" :class="navOffset < scrollPosition ? 'nav--title': null">
-                <a href="/" class="subtitle nav--title__mobile">Shaun Willis</a></li> -->
                 <li class="link nav-item"><a href="#about">About</li>
                   <li class="link nav-item"><a href="#skills">Skills</a></li>
           <li class="link nav-item"><a href="#portfolio">Portfolio</a></li>
@@ -74,6 +66,11 @@
             <img src="/img/imac.png" class="imac" alt="">
           </a>
         </div>
+        <div class="description finalproject-description">
+          <h4 class="card has-text-centered">App built using EmberJS</h4>
+          <h4 class="card has-text-centered"><a href="https://github.com/ShaunWMusic/Safety-Net">Click to view code for Front-End</a></h4>
+          <h4 class="card has-text-centered"><a href="https://github.com/derrickbray/safety-net-api">Click to view code for Back-End</a></h4>
+        </div>
     <div class="columns columns-portfolio is-desktop is-mobile" id="portfolio">
       <div class="column">
           <div class="control">
@@ -97,6 +94,34 @@
           <h4 class="card has-text-centered">App built using Vue.js</h4>
         <h4 class="card has-text-centered">
           <a href="https://github.com/ShaunWMusic/16-monster-mash/tree/develop">Click to view code</a></h4>
+      </div>
+      <div class="card black-space"></div>
+      <div class="card black-space-top"></div>
+      </div>
+    </div>
+    <div class="column">
+        <div class="control">
+          <a href="http://tremendous-scissors.surge.sh/">
+            <img class="gif gif-mobile gif-boo" src="/img/drumkit.gif" alt=""></a>
+        <img class="iphone" src="./img/iphonepic2.png" alt="">
+      <div class="description">
+          <h4 class="card has-text-centered">App built using Vanilla.js</h4>
+        <h4 class="card has-text-centered">
+          <a href="https://github.com/ShaunWMusic/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit/dist">Click to view code</a></h4>
+      </div>
+      <div class="card black-space"></div>
+      <div class="card black-space-top"></div>
+      </div>
+    </div>
+    <div class="column">
+        <div class="control">
+          <a href="http://volatile-goose.surge.sh/">
+            <img class="gif gif-mobile gif-boo" src="/img/clock.gif" alt=""></a>
+        <img class="iphone" src="./img/iphonepic2.png" alt="">
+      <div class="description">
+          <h4 class="card has-text-centered">App built using Vanilla.js</h4>
+        <h4 class="card has-text-centered">
+          <a href="https://github.com/ShaunWMusic/JavaScript30/tree/master/02%20-%20JS%20%2B%20CSS%20Clock/dist">Click to view code</a></h4>
       </div>
       <div class="card black-space"></div>
       <div class="card black-space-top"></div>

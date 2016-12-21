@@ -339,7 +339,17 @@ body {
 .description {
   position: relative;
   margin-top: -4rem;
+  border-radius: 0.4rem;
 }
+
+.finalproject-description {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  }
+
 
 .black-space {
   position: absolute;
